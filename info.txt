@@ -1,0 +1,18 @@
+npm init -y
+npm install webpack webpack-cli -D
+npx webpack
+npx webpack --mode development
+npx webpack --mode production
+crear archivo webpack.config.js
+npx webpack --mode production --config webpack.config.js
+en el archivo package.json agregar la linea "build": "webpack --mode production" dentro de scripts despues de test
+para ejecutar webpack: npm run build, esto reemplaza la instruccion de la linea 7
+npm install babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime -D
+npm install html-webpack-plugin -D
+npm install mini-css-extract-plugin css-loader -D
+npm install stylus stylus-loader -D
+npm install copy-webpack-plugin -D
+npm install url-loader file-loader -D
+npm install css-minimizer-webpack-plugin terser-webpack-plugin -D
+npm install dotenv-webpack -D
+npm install clean-webpack-plugin -D
